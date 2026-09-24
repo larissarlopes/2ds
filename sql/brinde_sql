@@ -1,0 +1,7 @@
+USE  darkgame;
+
+CREATE TABLE brinde (
+    cod INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR (100) UNIQUE OT NULL,
+    qtd_total INT
+)
